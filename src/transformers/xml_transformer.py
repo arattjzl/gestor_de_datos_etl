@@ -36,7 +36,7 @@ class XMLTransformer(luigi.Task):
                             "invoice": row.find('order_inv').text,
                             "provider": row.find('provider_identifier').text,
                             "country": row.find('country_loc').text,
-                            "date": row.find('date_inv').text
+                            #"date": row.find('date_inv').text
                         }
                     )
         with self.output().open('w') as out:

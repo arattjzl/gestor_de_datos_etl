@@ -42,7 +42,7 @@ class CSVTransformer(luigi.Task):
                             "invoice": entry["inv"],
                             "provider": entry["provider"],
                             "country": entry["countryname"],
-                            "date": entry["InvoiceDate"],
+                            #"date": entry["InvoiceDate"],
                         }
                     )
         with self.output().open('w') as out:

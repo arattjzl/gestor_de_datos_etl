@@ -38,7 +38,7 @@ class HTMTransformer(luigi.Task):
                             "invoice": entry["order_invoice"],
                             "provider": entry["id_provider"],
                             "country": entry["country_location"],
-                            "date": entry["date_invoice"]
+                            #"date": entry["date_invoice"]
                         }
                     )
         with self.output().open('w') as out:

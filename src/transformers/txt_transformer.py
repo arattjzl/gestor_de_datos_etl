@@ -31,13 +31,13 @@ class TXTTransformer(luigi.Task):
                     result.append(
                                 {
                                     "description": datos[-6],
-                                    "quantity": datos[-5],
-                                    "price": datos[-3],
-                                    "total": float(datos[-5]) * float(datos[-3]),
+                                    "quantity": str(abs(int(datos[-5]))),
+                                    "price": str(abs(float(datos[-3]))),
+                                    "total": abs(float(datos[-5]) * float(datos[-3])),
                                     "invoice": datos[-8],
                                     "provider": datos[-2],
                                     "country": datos[-1],
-                                    "date": datos[-4],
+                                    #"date": datos[-4],
                                 }
                             )
         with self.output().open('w') as out:
