@@ -37,7 +37,6 @@ class TXTTransformer(luigi.Task):
                                     "invoice": datos[-8],
                                     "provider": datos[-2],
                                     "country": datos[-1],
-                                    #"date": datos[-4],
                                 }
                             )
         with self.output().open('w') as out:

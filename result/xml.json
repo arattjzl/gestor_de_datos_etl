@@ -1019,7 +1019,7 @@
     {
         "description": "Manual",
         "quantity": "1",
-        "price": "1",
+        "price": "1.0",
         "total": 1.0,
         "invoice": "537225",
         "provider": "12748",
@@ -1747,9 +1747,9 @@
     },
     {
         "description": "SWEETHEART CARRY-ALL BASKET",
-        "quantity": "-2",
+        "quantity": "2",
         "price": "8.5",
-        "total": -17.0,
+        "total": 17.0,
         "invoice": "C537232",
         "provider": "12586",
         "country": "Italy"
@@ -1837,9 +1837,9 @@
     },
     {
         "description": "BUTTON BOX ",
-        "quantity": "-20",
+        "quantity": "20",
         "price": "1.95",
-        "total": -39.0,
+        "total": 39.0,
         "invoice": "C537234",
         "provider": "16161",
         "country": "France"
@@ -2819,7 +2819,7 @@
     {
         "description": "RELAX LARGE WOOD LETTERS",
         "quantity": "1",
-        "price": "34",
+        "price": "34.0",
         "total": 34.0,
         "invoice": "537237",
         "provider": "16858",
@@ -8975,7 +8975,7 @@
     {
         "description": "BREAD BIN DINER STYLE MINT",
         "quantity": "1",
-        "price": "34",
+        "price": "34.0",
         "total": 34.0,
         "invoice": "537240",
         "provider": "17428",
@@ -13313,7 +13313,7 @@
     {
         "description": "POSTAGE",
         "quantity": "1",
-        "price": "28",
+        "price": "28.0",
         "total": 28.0,
         "invoice": "537246",
         "provider": "12808",

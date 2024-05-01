@@ -36,13 +36,12 @@ class CSVTransformer(luigi.Task):
                     result.append(
                         {
                             "description": entry["productdesc"],
-                            "quantity": entry["qty"],
-                            "price": entry["rawprice"],
-                            "total": float(entry["qty"]) * float(entry["rawprice"]),
+                            "quantity": str(abs(int(entry["qty"]))),
+                            "price": str(abs(float(entry["rawprice"]))),
+                            "total": abs(float(entry["qty"]) * float(entry["rawprice"])),
                             "invoice": entry["inv"],
                             "provider": entry["provider"],
                             "country": entry["countryname"],
-                            #"date": entry["InvoiceDate"],
                         }
                     )
         with self.output().open('w') as out:

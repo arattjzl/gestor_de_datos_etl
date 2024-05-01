@@ -32,13 +32,12 @@ class HTMTransformer(luigi.Task):
                     result.append(
                         {
                             "description": entry["description_product"],
-                            "quantity": entry["Qty"],
-                            "price": entry["product_price"],
-                            "total": float(entry["Qty"]) * float(entry["product_price"]),
+                            "quantity": str(abs(int(entry["Qty"]))),
+                            "price": str(abs(float(entry["product_price"]))),
+                            "total": abs(float(entry["Qty"]) * float(entry["product_price"])),
                             "invoice": entry["order_invoice"],
                             "provider": entry["id_provider"],
                             "country": entry["country_location"],
-                            #"date": entry["date_invoice"]
                         }
                     )
         with self.output().open('w') as out:

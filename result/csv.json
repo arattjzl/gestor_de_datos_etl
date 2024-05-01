@@ -173,7 +173,7 @@
     {
         "description": "POSTAGE",
         "quantity": "3",
-        "price": "18",
+        "price": "18.0",
         "total": 54.0,
         "invoice": "536370",
         "provider": "12583",
@@ -317,7 +317,7 @@
     {
         "description": "POSTAGE",
         "quantity": "1",
-        "price": "15",
+        "price": "15.0",
         "total": 15.0,
         "invoice": "536403",
         "provider": "12791",
@@ -452,7 +452,7 @@
     {
         "description": "POSTAGE",
         "quantity": "1",
-        "price": "18",
+        "price": "18.0",
         "total": 18.0,
         "invoice": "536527",
         "provider": "12662",
@@ -1289,7 +1289,7 @@
     {
         "description": "CARRIAGE",
         "quantity": "1",
-        "price": "50",
+        "price": "50.0",
         "total": 50.0,
         "invoice": "536540",
         "provider": "14911",
@@ -2395,9 +2395,9 @@
     },
     {
         "description": "Discount",
-        "quantity": "-1",
+        "quantity": "1",
         "price": "27.5",
-        "total": -27.5,
+        "total": 27.5,
         "invoice": "C536379",
         "provider": "14527",
         "country": "United Kingdom"
@@ -2512,9 +2512,9 @@
     },
     {
         "description": "SET OF 3 COLOURED  FLYING DUCKS",
-        "quantity": "-1",
+        "quantity": "1",
         "price": "4.65",
-        "total": -4.65,
+        "total": 4.65,
         "invoice": "C536383",
         "provider": "15311",
         "country": "United Kingdom"
@@ -3215,7 +3215,7 @@
     {
         "description": "RUSTIC  SEVENTEEN DRAWER SIDEBOARD",
         "quantity": "1",
-        "price": "165",
+        "price": "165.0",
         "total": 165.0,
         "invoice": "536392",
         "provider": "13705",
@@ -12961,18 +12961,18 @@
     },
     {
         "description": "HAND WARMER RED RETROSPOT",
-        "quantity": "-1",
+        "quantity": "1",
         "price": "2.1",
-        "total": -2.1,
+        "total": 2.1,
         "invoice": "C536543",
         "provider": "17841",
         "country": "United Kingdom"
     },
     {
         "description": "CHARLOTTE BAG SUKI DESIGN",
-        "quantity": "-2",
+        "quantity": "2",
         "price": "0.85",
-        "total": -1.7,
+        "total": 1.7,
         "invoice": "C536543",
         "provider": "17841",
         "country": "United Kingdom"

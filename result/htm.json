@@ -659,7 +659,7 @@
     {
         "description": "POSTAGE",
         "quantity": "1",
-        "price": "18",
+        "price": "18.0",
         "total": 18.0,
         "invoice": "536840",
         "provider": "12738",
@@ -2089,45 +2089,45 @@
     },
     {
         "description": "CHRISTMAS LIGHTS 10 SANTAS ",
-        "quantity": "-48",
+        "quantity": "48",
         "price": "7.65",
-        "total": -367.20000000000005,
+        "total": 367.20000000000005,
         "invoice": "C536850",
         "provider": "14213",
         "country": "United Kingdom"
     },
     {
         "description": "DOORMAT MERRY CHRISTMAS RED ",
-        "quantity": "-50",
+        "quantity": "50",
         "price": "6.75",
-        "total": -337.5,
+        "total": 337.5,
         "invoice": "C536850",
         "provider": "14213",
         "country": "United Kingdom"
     },
     {
         "description": "CARDHOLDER GINGHAM CHRISTMAS TREE",
-        "quantity": "-50",
+        "quantity": "50",
         "price": "2.55",
-        "total": -127.49999999999999,
+        "total": 127.49999999999999,
         "invoice": "C536850",
         "provider": "14213",
         "country": "United Kingdom"
     },
     {
         "description": "ADVENT CALENDAR GINGHAM SACK",
-        "quantity": "-48",
+        "quantity": "48",
         "price": "4.95",
-        "total": -237.60000000000002,
+        "total": 237.60000000000002,
         "invoice": "C536850",
         "provider": "14213",
         "country": "United Kingdom"
     },
     {
         "description": "RED STAR CARD HOLDER",
-        "quantity": "-48",
+        "quantity": "48",
         "price": "2.55",
-        "total": -122.39999999999999,
+        "total": 122.39999999999999,
         "invoice": "C536850",
         "provider": "14213",
         "country": "United Kingdom"
@@ -2324,7 +2324,7 @@
     {
         "description": "POSTAGE",
         "quantity": "1",
-        "price": "18",
+        "price": "18.0",
         "total": 18.0,
         "invoice": "536852",
         "provider": "12686",
@@ -2332,45 +2332,45 @@
     },
     {
         "description": "CLASSICAL ROSE SMALL VASE",
-        "quantity": "-1",
+        "quantity": "1",
         "price": "2.55",
-        "total": -2.55,
+        "total": 2.55,
         "invoice": "C536853",
         "provider": "14679",
         "country": "United Kingdom"
     },
     {
         "description": "3 HEARTS HANGING DECORATION RUSTIC",
-        "quantity": "-1",
+        "quantity": "1",
         "price": "2.95",
-        "total": -2.95,
+        "total": 2.95,
         "invoice": "C536854",
         "provider": "15240",
         "country": "United Kingdom"
     },
     {
         "description": "CHRISTMAS METAL POSTCARD WITH BELLS",
-        "quantity": "-1",
+        "quantity": "1",
         "price": "1.25",
-        "total": -1.25,
+        "total": 1.25,
         "invoice": "C536854",
         "provider": "15240",
         "country": "United Kingdom"
     },
     {
         "description": "SAVE THE PLANET MUG",
-        "quantity": "-1",
+        "quantity": "1",
         "price": "1.25",
-        "total": -1.25,
+        "total": 1.25,
         "invoice": "C536854",
         "provider": "15240",
         "country": "United Kingdom"
     },
     {
         "description": "RED RETROSPOT TRADITIONAL TEAPOT ",
-        "quantity": "-4",
+        "quantity": "4",
         "price": "7.95",
-        "total": -31.8,
+        "total": 31.8,
         "invoice": "C536855",
         "provider": "18225",
         "country": "United Kingdom"
@@ -2927,7 +2927,7 @@
     {
         "description": "POSTAGE",
         "quantity": "2",
-        "price": "40",
+        "price": "40.0",
         "total": 80.0,
         "invoice": "536858",
         "provider": "13520",
@@ -3323,7 +3323,7 @@
     {
         "description": "POSTAGE",
         "quantity": "3",
-        "price": "18",
+        "price": "18.0",
         "total": 54.0,
         "invoice": "536861",
         "provider": "12427",
@@ -3917,7 +3917,7 @@
     {
         "description": "WOODEN ADVENT CALENDAR RED",
         "quantity": "1",
-        "price": "34",
+        "price": "34.0",
         "total": 34.0,
         "invoice": "536862",
         "provider": "16905",
@@ -5870,7 +5870,7 @@
     {
         "description": "WOODEN ADVENT CALENDAR CREAM",
         "quantity": "1",
-        "price": "34",
+        "price": "34.0",
         "total": 34.0,
         "invoice": "536865",
         "provider": "12841",
@@ -5879,7 +5879,7 @@
     {
         "description": "WOODEN ADVENT CALENDAR RED",
         "quantity": "1",
-        "price": "34",
+        "price": "34.0",
         "total": 34.0,
         "invoice": "536865",
         "provider": "12841",
@@ -8984,7 +8984,7 @@
     {
         "description": "WOODEN ADVENT CALENDAR RED",
         "quantity": "1",
-        "price": "34",
+        "price": "34.0",
         "total": 34.0,
         "invoice": "536876",
         "provider": "12841",
@@ -12521,7 +12521,7 @@
     {
         "description": "amazon",
         "quantity": "20",
-        "price": "0",
+        "price": "0.0",
         "total": 0.0,
         "invoice": "536941",
         "provider": "12841",
@@ -12530,7 +12530,7 @@
     {
         "description": "amazon",
         "quantity": "15",
-        "price": "0",
+        "price": "0.0",
         "total": 0.0,
         "invoice": "536942",
         "provider": "12841",

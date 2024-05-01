@@ -30,13 +30,12 @@ class XMLTransformer(luigi.Task):
                     result.append(
                         {
                             "description": row.find('desc').text,
-                            "quantity": row.find('product_qty').text,
-                            "price": row.find('current_price').text,
-                            "total": float(row.find('product_qty').text) * float(row.find('current_price').text),
+                            "quantity": str(abs(int(row.find('product_qty').text))),
+                            "price": str(abs(float(row.find('current_price').text))),
+                            "total": abs(float(row.find('product_qty').text) * float(row.find('current_price').text)),
                             "invoice": row.find('order_inv').text,
                             "provider": row.find('provider_identifier').text,
                             "country": row.find('country_loc').text,
-                            #"date": row.find('date_inv').text
                         }
                     )
         with self.output().open('w') as out:
