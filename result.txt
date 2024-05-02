@@ -1,4 +1,4 @@
-...file C:\Users\aratt\workspace\uni\arquitectura\etl\bueno_etl\gestor-de-datos\result\csv.json processed
-...file C:\Users\aratt\workspace\uni\arquitectura\etl\bueno_etl\gestor-de-datos\result\xml.json processed
-...file C:\Users\aratt\workspace\uni\arquitectura\etl\bueno_etl\gestor-de-datos\result\htm.json processed
-...file C:\Users\aratt\workspace\uni\arquitectura\etl\bueno_etl\gestor-de-datos\result\txt.json processed
+...file C:\Users\jarsr\OneDrive\Documentos\6toSemestre\arquitectura\flujo-de-datos\gestor_de_datos_etl\result\csv.json processed
+...file C:\Users\jarsr\OneDrive\Documentos\6toSemestre\arquitectura\flujo-de-datos\gestor_de_datos_etl\result\xml.json processed
+...file C:\Users\jarsr\OneDrive\Documentos\6toSemestre\arquitectura\flujo-de-datos\gestor_de_datos_etl\result\htm.json processed
+...file C:\Users\jarsr\OneDrive\Documentos\6toSemestre\arquitectura\flujo-de-datos\gestor_de_datos_etl\result\txt.json processed
